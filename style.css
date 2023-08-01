@@ -1,0 +1,21 @@
+header {
+    background-color: aliceblue; 
+     position: sticky; 
+     top: 0; 
+     display: flex; 
+     flex-direction: row;
+     justify-content: space-between;>
+ }
+
+ .d-block {
+    display: block; 
+ }
+
+ .w-100 {
+    weight:100%;
+ }
+
+ #plava {
+    display: flex; 
+    flex-direction: row;
+ }
