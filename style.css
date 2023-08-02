@@ -5,17 +5,42 @@ header {
      display: flex; 
      flex-direction: row;
      justify-content: space-between;>
+     height: 3rem;
+     align-items:center;
  }
 
  .d-block {
     display: block; 
  }
 
+body {
+   margin:0;
+   padding: 0;
+}
+
  .w-100 {
-    weight:100%;
+    width:100%;
  }
 
- #plava {
-    display: flex; 
-    flex-direction: row;
+ * {
+   font-family: 'Courier New', Courier, monospace;
  }
+
+.d-flex-f-d-row {
+   display:flex;;
+   flex-direction: row;
+}
+
+.d-flex-f-row-reverse {
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+footer {
+   background-color: aliceblue;
+   text-align:center;
+}
+
+.w-50 {
+   width: 50%;
+}

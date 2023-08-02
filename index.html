@@ -7,41 +7,54 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="margin: 0; padding: 0;">
+
+<body>
 
     <!-- Header -->
     <header>
-    <a href="#pavasaris">Šeit ir virsraksts, kurš paliek galvenes daļā.</a>
+        <a href="#pavasaris">Šeit ir virsraksts, kurš paliek galvenes daļā.</a>
         <div>
             <a href="#vasara">Vasara</a>
             <a href="#plava">Uzdevumi</a>
         </div>
     </header>
 
-    <div id="pavasaris">
-        <img src="Pavasaris.jpg" alt="Pavasaris">
-            <h1>Pavasaris</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur iusto quia cum similique deserunt,
-                necessitatibus totam pariatur magni saepe omnis officia dignissimos ratione dolorem, velit molestiae
-                assumenda minus error repellat!
-            </p>
+    <img class="w-100" src="Pavasaris.jpg" alt="Pavasaris">
+    <main>
+        <div id="pavasaris" class="d-flex-f-d-row w-100">
+            <img src="Pavasaris.jpg" alt="Pavasaris" class="w-50">
+            <div>
+                <h1>Pavasaris</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur iusto quia cum similique
+                    deserunt,
+                    necessitatibus totam pariatur magni saepe omnis officia dignissimos ratione dolorem, velit molestiae
+                    assumenda minus error repellat!
+                </p>
+            </div>
         </div>
-    <div id="vasara">
-            <img src="Vasara.jpg" alt="Vasara">
-            <h1>Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.</h1><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sint ipsum fugiat illum nihil
-                consequuntur, culpa repellendus itaque ex aperiam cum dolore ipsam in! Tenetur autem neque eaque placeat
-                delectus.
-            </p>
+        <div id="vasara" class="d-flex-f-row-reverse">
+            <img src="Vasara.jpg" alt="Vasara" class="w-50">
+            <div class="w-50">
+                <h1>Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.</h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sint ipsum fugiat illum nihil
+                    consequuntur, culpa repellendus itaque ex aperiam cum dolore ipsam in! Tenetur autem neque eaque
+                    placeat
+                    delectus.
+                </p>
+            </div>
         </div>
-        <div id="plava">
-            <div class="d-block">
-                <img class="d-block w-100" src="Plava.jpg" alt="Plava">
+        <div id="plava" class="d-flex-f-d-row">
+            <img src="Plava.jpg" alt="Plava" class="w-50">
+            <div class="w-50">
                 <h1>Šeit apraksts, kuram ir jāatrodas bildes labajā pusē.</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae possimus pariatur dolorem eum
-                    nostrum dolor tempora, doloremque nihil non necessitatibus dolorum quod animi exercitationem sunt.
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae possimus pariatur dolorem
+                    eum
+                    nostrum dolor tempora, doloremque nihil non necessitatibus dolorum quod animi exercitationem
+                    sunt.
                     Ut dolores possimus optio animi?</p>
+            </div>
         </div>
+        <hr>
         <!-- Exercises -->
         <div id="exercises">
             <h1>Uzdevumi</h1>
@@ -81,7 +94,7 @@
             <p>Šeit ir tukšs footers</p>
             <p>Šeit ir tukšs footers vēlreiz</p>
         </footer>
-
+    </main>
 </body>
 
 </html>
